@@ -1,0 +1,66 @@
+/* Parallax effect */
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Parallax</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <style>
+        .parallax{
+            background-image: url(th.jpg);
+            min-height: 500px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        p{
+            font-size: larger;
+            font-family: cursive;
+            color: crimson;
+        }
+    </style>
+    <body>
+        <u><p>Welcome to Parallax Method</p></u>
+        <div class="parallax"></div>
+        <div style="height: 200px; background-color:green;font-size: 28px">Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena</div>
+        <div class="unordered-list">
+            <u>
+            <h1>#SKILLS</h1>
+            </u>
+            <ul>
+                <li>C programming</li>
+                <li>C++</li>
+                <li>Java Programming</li>
+                <li>python</li>
+                <li>Java Script</li>
+            </ul>
+        </div>
+        <div class="ordered-list">
+            <u>
+            <h1>#Cloud-platforms</h1>
+            </u>
+            <ol>
+                <li>Amazon web series(AWS)</li>
+                <li>Microsoft Azure</li>
+                <li>Google cloud platform(GCP)</li>
+            </ol>
+        </div>
+        <div class="Description-list">
+            <u>
+            <h1>#BE-Branches</h1>
+            </u>
+            <dl>
+                <dt>Farmer</dt>
+                <dd>-He is the backbone of our nation.</dd>
+                <dt>President</dt>
+                <dd>-president is the first citizen of the country.</dd>
+                <dt>machine-Learning</dt>
+                <dd>-this is the technology mainly using in the software world.</dd>
+            </dl>
+        </div>
+        
+    </body>
+</html>
